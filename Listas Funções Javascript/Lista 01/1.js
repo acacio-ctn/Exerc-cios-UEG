@@ -1,4 +1,3 @@
-// Exercício 01 - Lista 1
 const prompt = require("prompt-sync")();
 
 function operacoesBasicas(valor1,valor2){
