@@ -1,0 +1,46 @@
+body{
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+#divPai{
+    display: flex;
+    justify-content: center;
+}
+
+#divFilho{
+    font-size: 30px;
+    background-color: rgb(255, 255, 159);
+    border: 1px black solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#divFilho input{
+    font-size: 25px;
+}
+
+#btnCalc{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.divSaidaPai{
+    display: flex;
+    justify-content: center;
+}
+
+#saida{
+    font-size: 25px;
+    background-color: rgb(255, 213, 134);
+    padding: 20px;
+    border: 1px orange solid;
+    border-radius: 10px;
+}
