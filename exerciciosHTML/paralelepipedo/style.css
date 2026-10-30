@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(252, 206, 151);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.divPai{
+    display: flex;
+    justify-content: center;
+}
+
+.divFilho{
+    background-color: rgb(175, 175, 248);
+    border: 1px black solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.saidaPai{
+    display: flex;
+    justify-content: center;
+}
+
+#saida{
+    background-color: rgb(175, 175, 248);
+    border: 1px black solid;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
