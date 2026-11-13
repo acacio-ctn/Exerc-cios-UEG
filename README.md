@@ -1,2 +1,2 @@
 # Exercícios UEG
-Listas de exercícios realizadas dentro da matéria de Algoritmos e Lógica de programação.
+Exercícios realizados ao longo do curso de graduação Sistemas para Internet na Universidade Estadual de Goiás (UEG).
