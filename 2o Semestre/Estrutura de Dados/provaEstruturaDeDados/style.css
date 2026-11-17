@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(127, 127, 231);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.divPai1{
+    display: flex;
+    justify-content: center;
+}
+
+.divFilho1{
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+input{
+    font-size: 30px;
+    width: 200px;
+}
+
+#btnGerar{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: wheat;
+}
+
+#btnGerar:hover{
+    background-color: red;
+}
+
+.divPai2{
+    display: flex;
+    justify-content: center;
+}
+
+#saidaVetor{
+    background-color: palevioletred;
+    padding: 20px;
+    font-size: 25px;
+    border: 1px white solid;
+    border-radius: 20px;
+}
+
+.divPai3{
+    display: flex;
+    justify-content: center;
+}
+
+#btnInverter{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: wheat;
+}
+
+#btnGerar:hover{
+    background-color: red;
+}
+
+#divPai4{
+    display: flex;
+    justify-content: center;
+}
+
+#saidaInvertido{
+    background-color: palevioletred;
+    padding: 20px;
+    font-size: 25px;
+    border: 1px white solid;
+    border-radius: 20px;
+}

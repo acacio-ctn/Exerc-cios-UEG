@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inverter Vetor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script type="module" src="main.js"></script>
-    <h1>Inversor de Vetor</h1>
+    <h1 class="titulo">Inversor de Vetor</h1>
     <br><br>
     <h2> 
+    <div class="divPai1">
+        <div class="divFilho1">
     <label for="entrada">Dígite o tamanho do vetor:</label>
     <input type="number" name="entrada" id="tamanhoVetor">
-    <br><br>
     <button type="button" id="btnGerar">Gerar</button>
-    <br><br>
-    <p id="saidaVetor"></p>
-    <br><br>
+    </div>
+    </div>
+    <br>
+    <div class="divPai2">
+    <div id="saidaVetor"></div>
+    </div>
+    <br>
+    <div class="divPai3">
     <button type="button" id="btnInverter">Inverter</button>
-    <br><br>
+    </div>
+    <br>
+    <div id="divPai4">
     <p id="saidaInvertido"></p>
+    </div>
     </h2>
 </body>
 </html>

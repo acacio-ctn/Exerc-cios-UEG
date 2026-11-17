@@ -1,0 +1,75 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.divPai1{
+    display: flex;
+    justify-content: center;
+}
+
+#btnIncluir{
+    font-size: 20px;
+    padding: 7px;
+    background-color: rgb(68, 68, 253);
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+#btnIncluir:hover{
+    box-shadow: 0px 0px 8px grey;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+#btnRetirar{
+    font-size: 20px;
+    padding: 7px;
+    background-color: rgb(68, 68, 253);
+    color: white;
+    border-radius: 10px;
+}
+
+#btnAcessar{
+    font-size: 20px;
+    padding: 7px;
+    background-color: rgb(68, 68, 253);
+    color: white;
+    border-radius: 10px;
+}
+
+#entrada{
+    font-size: 28px;
+    width: 180px;
+}
+
+label{
+    font-size: 28px;
+}
+
+#saidaPrimeiroControl{
+    display: flex;
+    justify-content: center;
+}
+
+#saidaPrimeiroFila{
+    font-size: 20px;
+    border: 1px green solid;
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+#saidaMostrarFila{
+    font-size: 20px;
+}
