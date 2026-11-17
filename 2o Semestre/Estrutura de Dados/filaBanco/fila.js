@@ -25,7 +25,7 @@ export class Fila {
     // Incluir elemento no final da fila
     enfileirar(elemento) {
     this.#array[++this.#fim] = elemento;
-    if (this.estaVazia()) this.#inicio = this.#fim; // REVISAR EDICAO
+    if (this.estaVazia()) this.#inicio = this.#fim; 
     this.#tamanho++;
 }
 

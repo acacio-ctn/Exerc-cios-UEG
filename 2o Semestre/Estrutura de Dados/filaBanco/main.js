@@ -18,14 +18,22 @@ function incluirNaFila(){
 function retirarDaFila(){
     const saida = document.getElementById("saidaMostrarFila")
 
+    try{ 
     fila.desenfileirar()
 
     saida.innerHTML = fila.obterDadosFila()
+    }catch(Error){
+        saida.innerHTML = Error.message
+    }
 }
 
 function acessarPrimeiro(){
     const saida = document.getElementById("saidaPrimeiroFila")
+    try { 
     saida.innerHTML = `Primeiro da Fila: ${fila.acessar()}`
+    }catch(Error){
+        saida.innerHTML = Error.message
+    }
 }
 
 btnIncluir.addEventListener("click", incluirNaFila)
