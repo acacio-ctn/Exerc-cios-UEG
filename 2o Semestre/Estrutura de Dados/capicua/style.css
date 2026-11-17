@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(109, 191, 115);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.divPai1{
+    display: flex;
+    justify-content: center;
+}
+
+.divFilho1{
+    background-color: rgb(255, 234, 220);
+    padding: 20px;
+    font-size: 30px;
+    border: 2px rgb(107, 107, 107) solid;
+    border-radius: 10px;
+}
+
+.divPai2{
+    display: flex;
+    justify-content: center;
+}
+
+#saida{
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px black solid;
+    
+}
+
+input{
+    height: 49px;
+    font-size: 30px;
+}
+
+#botao{
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(109, 191, 115);
+    color: white;
+}
+
+#botao:hover{
+    background-color: green;
+}
