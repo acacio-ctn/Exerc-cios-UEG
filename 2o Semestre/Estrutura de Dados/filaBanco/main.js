@@ -6,6 +6,14 @@ const btnAcessar = document.getElementById("btnAcessar")
 const entrada = document.getElementById("entrada") 
 const fila = new Fila()
 
+function exibirFila(){
+    const saida = document.getElementById("saidaMostrarFila")
+
+    saida.innerHTML = fila.obterDadosFila()
+}
+
+exibirFila()
+
 function incluirNaFila(){
     const texto = entrada.value
     const saida = document.getElementById("saidaMostrarFila")

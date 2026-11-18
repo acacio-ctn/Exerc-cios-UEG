@@ -30,9 +30,11 @@ function inverterVetor(){
     const saida = document.getElementById('saidaInvertido')
 
      for(let i = 0; !pilha.estaVazia(); i++){
-        let elemento = pilha.desempilhar()
+        let elemento = pilha.acessar()
 
         arrayInverso[i] = elemento
+
+        pilha.desempilhar()
      }
 
     saida.innerHTML = 'Vetor Invertido: [ ' + arrayInverso.join(' | ') + ' ]'

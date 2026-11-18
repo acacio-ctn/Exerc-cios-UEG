@@ -24,10 +24,10 @@ export class Fila {
 
     // Incluir elemento no final da fila
     enfileirar(elemento) {
-    this.#array[++this.#fim] = elemento;
-    if (this.estaVazia()) this.#inicio = this.#fim; 
-    this.#tamanho++;
-}
+        this.#array[++this.#fim] = elemento;
+        if(this.#tamanho === 0) this.#inicio = 0;
+        this.#tamanho++;
+    }
 
     // Acessar o elemento do início da fila, sem removê-lo
     acessar() {
@@ -44,6 +44,10 @@ export class Fila {
         }
         this.#inicio++;
         this.#tamanho--;
+        
+        if(this.#tamanho === 0){
+            this.limpar()
+        }
     }
 
     // Esvaziar a fila
@@ -56,7 +60,7 @@ export class Fila {
 
     // Elementos da Fila;
     obterDadosFila(){
-        if(this.estaVazia()) return "Fila => { }";
+        if(this.estaVazia()) return "Fila => { ∅ }";
         let saida = "Fila => { "; 
         for(let pos = this.#inicio; pos <= this.#fim; pos++){
             saida += this.#array[pos] + " | ";

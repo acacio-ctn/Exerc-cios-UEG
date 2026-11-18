@@ -73,3 +73,17 @@ label{
 #saidaMostrarFila{
     font-size: 20px;
 }
+
+.fotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flamengo{
+    width: 90px;
+}
+
+.aluno{
+    width: 90px;
+}
